@@ -53,4 +53,4 @@ for char in range(1, password_length+1):
     char_type = random.choice((list_keys))
     password_hard = password_hard + random.choice(password_dict[char_type])
 
-print(f"\n The password with random osition of symbol, number or letter  is \n{password_hard}")
+print(f"\n The password with random position of symbol, number or letter  is \n{password_hard}")
